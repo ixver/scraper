@@ -1,0 +1,31 @@
+/* @import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;700&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@800&family=Overpass&family=Sarala&display=swap");
+
+/*
+npm install @fontsource/libre-franklin # (800)
+sarala
+overpass
+*/
+
+/* :root {
+  --primary: #efb6b2;
+  --secondary: #4e4e4e;
+  --error: #ff4a4a;
+} */
+
+/* base styles & title */
+
+* {
+	box-sizing: border-box !important;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	/* font-family: "Noto Serif" !important; */
+	color: var(--secondary);
+}
